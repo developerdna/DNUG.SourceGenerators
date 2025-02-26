@@ -2,10 +2,6 @@
 
 Source Code of the .NET User Group Paderborn Talk about Roslyn Source Generators.
 
-## Presentation
-
-Find the exported PDF version of the slides at **DNUG Source Generators.pdf**.
-
 ## EnumParsing
 
 The *Live Code* example is located in **EnumParsing**.
