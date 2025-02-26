@@ -1,0 +1,32 @@
+Namespace: DNUG.SourceGenerators.Bonus.Sample
+Entities:
+  - Name: Genre
+    Members:
+      - Name: ID
+        Type: integer
+      - Name: Name
+        Type: string
+      - Name: Books
+        Type: Book[]
+  - Name: Book
+    Members:
+      - Name: ID
+        Type: integer
+      - Name: Title
+        Type: string
+      - Name: AuthorID
+        Type: integer
+      - Name: Author
+        Type: Author
+      - Name: GenreID
+        Type: integer
+      - Name: Genre
+        Type: Genre
+  - Name: Author
+    Members:
+        - Name: ID
+          Type: integer
+        - Name: Name
+          Type: string
+        - Name: Books
+          Type: Book[]

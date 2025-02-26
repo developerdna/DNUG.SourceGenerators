@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DNUG.SourceGenerators.Bonus.Sample</RootNamespace>
+        <NoWarn>CS8618</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="DDD.UbiquitousLanguageRegistry.txt"/>
+        <None Remove="entities.yaml" />
+        <AdditionalFiles Include="entities.yaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DNUG.SourceGenerators.Bonus" Version="1.0.0" />
+    </ItemGroup>
+    
+</Project>
